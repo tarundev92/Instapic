@@ -1,0 +1,1024 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		222A3E0B215B103200323750 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222A3E0A215B103200323750 /* AppDelegate.swift */; };
+		222A3E0D215B103200323750 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222A3E0C215B103200323750 /* HomeViewController.swift */; };
+		222A3E0F215B103200323750 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222A3E0E215B103200323750 /* SecondViewController.swift */; };
+		222A3E12215B103200323750 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 222A3E10215B103200323750 /* Main.storyboard */; };
+		222A3E14215B103600323750 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 222A3E13215B103600323750 /* Assets.xcassets */; };
+		222A3E17215B103600323750 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 222A3E15215B103600323750 /* LaunchScreen.storyboard */; };
+		222A3E22215B103600323750 /* instapicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222A3E21215B103600323750 /* instapicTests.swift */; };
+		222A3E2D215B103700323750 /* instapicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222A3E2C215B103700323750 /* instapicUITests.swift */; };
+		222A3E3F215B118300323750 /* ViewControllerSignIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222A3E3C215B118300323750 /* ViewControllerSignIn.swift */; };
+		222A3E40215B118300323750 /* ProfileEditController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222A3E3D215B118300323750 /* ProfileEditController.swift */; };
+		222A3E41215B118300323750 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222A3E3E215B118300323750 /* ProfileViewController.swift */; };
+		222A3E58215B145100323750 /* RobotoCondensed-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 222A3E46215B144E00323750 /* RobotoCondensed-Light.ttf */; };
+		222A3E59215B145100323750 /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 222A3E47215B144F00323750 /* Roboto-Black.ttf */; };
+		222A3E5A215B145100323750 /* RobotoCondensed-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 222A3E48215B144F00323750 /* RobotoCondensed-LightItalic.ttf */; };
+		222A3E5B215B145100323750 /* Roboto-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 222A3E49215B144F00323750 /* Roboto-BlackItalic.ttf */; };
+		222A3E5C215B145100323750 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 222A3E4A215B144F00323750 /* Roboto-Medium.ttf */; };
+		222A3E5D215B145100323750 /* RobotoCondensed-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 222A3E4B215B144F00323750 /* RobotoCondensed-BoldItalic.ttf */; };
+		222A3E5E215B145100323750 /* RobotoCondensed-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 222A3E4C215B144F00323750 /* RobotoCondensed-Italic.ttf */; };
+		222A3E5F215B145100323750 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 222A3E4D215B144F00323750 /* Roboto-Regular.ttf */; };
+		222A3E60215B145100323750 /* RobotoCondensed-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 222A3E4E215B144F00323750 /* RobotoCondensed-Bold.ttf */; };
+		222A3E61215B145100323750 /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 222A3E4F215B144F00323750 /* Roboto-BoldItalic.ttf */; };
+		222A3E62215B145100323750 /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 222A3E50215B145000323750 /* Roboto-Thin.ttf */; };
+		222A3E63215B145100323750 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 222A3E51215B145000323750 /* Roboto-Bold.ttf */; };
+		222A3E64215B145100323750 /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 222A3E52215B145000323750 /* Roboto-Light.ttf */; };
+		222A3E65215B145100323750 /* Roboto-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 222A3E53215B145000323750 /* Roboto-MediumItalic.ttf */; };
+		222A3E66215B145100323750 /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 222A3E54215B145000323750 /* Roboto-Italic.ttf */; };
+		222A3E67215B145100323750 /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 222A3E55215B145000323750 /* Roboto-ThinItalic.ttf */; };
+		222A3E68215B145100323750 /* RobotoCondensed-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 222A3E56215B145000323750 /* RobotoCondensed-Regular.ttf */; };
+		222A3E69215B145100323750 /* Roboto-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 222A3E57215B145000323750 /* Roboto-LightItalic.ttf */; };
+		222A3E6C215B154400323750 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222A3E6B215B154400323750 /* Extensions.swift */; };
+		222A3E6E215B222B00323750 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 222A3E6D215B222B00323750 /* GoogleService-Info.plist */; };
+		222A3E70215B9F9100323750 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222A3E6F215B9F9100323750 /* RegisterViewController.swift */; };
+		222A3E73215F2BBA00323750 /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222A3E72215F2BBA00323750 /* UserProfile.swift */; };
+		222A3E75215F3EAC00323750 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222A3E74215F3EAC00323750 /* Common.swift */; };
+		222A3E77215F93FF00323750 /* IJProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222A3E76215F93FF00323750 /* IJProgressView.swift */; };
+		222A3E79215FBA3500323750 /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222A3E78215FBA3500323750 /* PhotoViewController.swift */; };
+		222A3E7B215FC8C500323750 /* PreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222A3E7A215FC8C400323750 /* PreviewViewController.swift */; };
+		222A3E7D21609D6700323750 /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222A3E7C21609D6700323750 /* ShareViewController.swift */; };
+		222A3E7F2160A7B300323750 /* Posts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222A3E7E2160A7B300323750 /* Posts.swift */; };
+		222A3E812161037200323750 /* ModelPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222A3E802161037200323750 /* ModelPost.swift */; };
+		222A3E842161C4F100323750 /* PostHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222A3E832161C4F100323750 /* PostHeaderCell.swift */; };
+		222A3E862161C50000323750 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222A3E852161C50000323750 /* PostCell.swift */; };
+		222A3E882161E6A700323750 /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222A3E872161E6A700323750 /* HomeTableViewController.swift */; };
+		2272AC66216C417E0047F298 /* PostDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2272AC65216C417E0047F298 /* PostDetailViewController.swift */; };
+		2272AC6A216C7AFA0047F298 /* CommentsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2272AC69216C7AFA0047F298 /* CommentsTableViewController.swift */; };
+		2272AC6C216C7F5E0047F298 /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2272AC6B216C7F5E0047F298 /* CommentCell.swift */; };
+		2272AC6E216C80210047F298 /* ModelComment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2272AC6D216C80210047F298 /* ModelComment.swift */; };
+		2272AC70216C81740047F298 /* Comments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2272AC6F216C81740047F298 /* Comments.swift */; };
+		22815A0E2161F67D007489CB /* TempPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22815A0D2161F67D007489CB /* TempPost.swift */; };
+		22815A102161F6D6007489CB /* TempUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22815A0F2161F6D6007489CB /* TempUser.swift */; };
+		22815A1221630CCC007489CB /* UserPostDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22815A1121630CCC007489CB /* UserPostDataSource.swift */; };
+		22815A1421630F7D007489CB /* UserPostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22815A1321630F7D007489CB /* UserPostCell.swift */; };
+		22815A16216310DD007489CB /* ModelUserPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22815A15216310DD007489CB /* ModelUserPost.swift */; };
+		22B2D2AB2175822F0082D6A2 /* DiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B2D2AA2175822F0082D6A2 /* DiscoverViewController.swift */; };
+		22B2D2AD2175842F0082D6A2 /* PicCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B2D2AC2175842F0082D6A2 /* PicCollectionViewCell.swift */; };
+		22B2D2AF2175A7580082D6A2 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B2D2AE2175A7580082D6A2 /* SearchViewController.swift */; };
+		22B2D2B22175B2360082D6A2 /* ModelUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B2D2B12175B2360082D6A2 /* ModelUser.swift */; };
+		22B2D2B42175B5BD0082D6A2 /* UserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B2D2B32175B5BD0082D6A2 /* UserTableViewCell.swift */; };
+		22B2D2B62175B90B0082D6A2 /* HeaderProfileCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B2D2B52175B90B0082D6A2 /* HeaderProfileCollectionReusableView.swift */; };
+		22B2D2B82175DA870082D6A2 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B2D2B72175DA870082D6A2 /* UserService.swift */; };
+		22B2D2BA217635810082D6A2 /* CommentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B2D2B9217635810082D6A2 /* CommentViewController.swift */; };
+		22B2D2BC2178DD480082D6A2 /* ActivityFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B2D2BB2178DD480082D6A2 /* ActivityFeedViewController.swift */; };
+		22B2D2BE2178E02F0082D6A2 /* ActivityFeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B2D2BD2178E02F0082D6A2 /* ActivityFeedCell.swift */; };
+		22B2D2C02178E0E30082D6A2 /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B2D2BF2178E0E30082D6A2 /* Activity.swift */; };
+		22B2D2C22178E0FB0082D6A2 /* ModelActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B2D2C12178E0FB0082D6A2 /* ModelActivity.swift */; };
+		22B2D2C421796F810082D6A2 /* ActivityService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B2D2C321796F810082D6A2 /* ActivityService.swift */; };
+		22B2D2C6217AFF730082D6A2 /* LikesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B2D2C5217AFF720082D6A2 /* LikesViewController.swift */; };
+		22B2D2C8217AFFCA0082D6A2 /* LikesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B2D2C7217AFFCA0082D6A2 /* LikesCell.swift */; };
+		22E28D7E2174D10500C15444 /* PostService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E28D7D2174D10500C15444 /* PostService.swift */; };
+		9B0CB08DA578FB69C1B16942 /* Pods_instapicUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9765A8D81795E02965E9F219 /* Pods_instapicUITests.framework */; };
+		BC631595E7F2AAC3249A1E12 /* Pods_instapic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 978806A4314E3505F6BFE685 /* Pods_instapic.framework */; };
+		C7AC5DF259CC3F42313F7C28 /* Pods_instapicTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 537D5C8A09662854AE5BD50D /* Pods_instapicTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		222A3E1E215B103600323750 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 222A3DFF215B103200323750 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 222A3E06215B103200323750;
+			remoteInfo = instapic;
+		};
+		222A3E29215B103700323750 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 222A3DFF215B103200323750 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 222A3E06215B103200323750;
+			remoteInfo = instapic;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0AA386BF91823C801F03BD4D /* Pods-instapicTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-instapicTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-instapicTests/Pods-instapicTests.release.xcconfig"; sourceTree = "<group>"; };
+		0C440ADB800C71721457B331 /* Pods-instapicUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-instapicUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-instapicUITests/Pods-instapicUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		145031260D0D8EEBB4AED854 /* Pods-instapic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-instapic.debug.xcconfig"; path = "Pods/Target Support Files/Pods-instapic/Pods-instapic.debug.xcconfig"; sourceTree = "<group>"; };
+		222A3E07215B103200323750 /* instapic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = instapic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		222A3E0A215B103200323750 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		222A3E0C215B103200323750 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		222A3E0E215B103200323750 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		222A3E11215B103200323750 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		222A3E13215B103600323750 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		222A3E16215B103600323750 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		222A3E18215B103600323750 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		222A3E1D215B103600323750 /* instapicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = instapicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		222A3E21215B103600323750 /* instapicTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = instapicTests.swift; sourceTree = "<group>"; };
+		222A3E23215B103600323750 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		222A3E28215B103700323750 /* instapicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = instapicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		222A3E2C215B103700323750 /* instapicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = instapicUITests.swift; sourceTree = "<group>"; };
+		222A3E2E215B103700323750 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		222A3E3C215B118300323750 /* ViewControllerSignIn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerSignIn.swift; sourceTree = "<group>"; };
+		222A3E3D215B118300323750 /* ProfileEditController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileEditController.swift; sourceTree = "<group>"; };
+		222A3E3E215B118300323750 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		222A3E46215B144E00323750 /* RobotoCondensed-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoCondensed-Light.ttf"; sourceTree = "<group>"; };
+		222A3E47215B144F00323750 /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Black.ttf"; sourceTree = "<group>"; };
+		222A3E48215B144F00323750 /* RobotoCondensed-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoCondensed-LightItalic.ttf"; sourceTree = "<group>"; };
+		222A3E49215B144F00323750 /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BlackItalic.ttf"; sourceTree = "<group>"; };
+		222A3E4A215B144F00323750 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		222A3E4B215B144F00323750 /* RobotoCondensed-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoCondensed-BoldItalic.ttf"; sourceTree = "<group>"; };
+		222A3E4C215B144F00323750 /* RobotoCondensed-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoCondensed-Italic.ttf"; sourceTree = "<group>"; };
+		222A3E4D215B144F00323750 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		222A3E4E215B144F00323750 /* RobotoCondensed-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoCondensed-Bold.ttf"; sourceTree = "<group>"; };
+		222A3E4F215B144F00323750 /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BoldItalic.ttf"; sourceTree = "<group>"; };
+		222A3E50215B145000323750 /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		222A3E51215B145000323750 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		222A3E52215B145000323750 /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
+		222A3E53215B145000323750 /* Roboto-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-MediumItalic.ttf"; sourceTree = "<group>"; };
+		222A3E54215B145000323750 /* Roboto-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Italic.ttf"; sourceTree = "<group>"; };
+		222A3E55215B145000323750 /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
+		222A3E56215B145000323750 /* RobotoCondensed-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoCondensed-Regular.ttf"; sourceTree = "<group>"; };
+		222A3E57215B145000323750 /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-LightItalic.ttf"; sourceTree = "<group>"; };
+		222A3E6B215B154400323750 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		222A3E6D215B222B00323750 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		222A3E6F215B9F9100323750 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		222A3E72215F2BBA00323750 /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
+		222A3E74215F3EAC00323750 /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		222A3E76215F93FF00323750 /* IJProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IJProgressView.swift; sourceTree = "<group>"; };
+		222A3E78215FBA3500323750 /* PhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
+		222A3E7A215FC8C400323750 /* PreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewViewController.swift; sourceTree = "<group>"; };
+		222A3E7C21609D6700323750 /* ShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
+		222A3E7E2160A7B300323750 /* Posts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Posts.swift; sourceTree = "<group>"; };
+		222A3E802161037200323750 /* ModelPost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelPost.swift; sourceTree = "<group>"; };
+		222A3E832161C4F100323750 /* PostHeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostHeaderCell.swift; sourceTree = "<group>"; };
+		222A3E852161C50000323750 /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		222A3E872161E6A700323750 /* HomeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
+		2272AC65216C417E0047F298 /* PostDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailViewController.swift; sourceTree = "<group>"; };
+		2272AC69216C7AFA0047F298 /* CommentsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsTableViewController.swift; sourceTree = "<group>"; };
+		2272AC6B216C7F5E0047F298 /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
+		2272AC6D216C80210047F298 /* ModelComment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelComment.swift; sourceTree = "<group>"; };
+		2272AC6F216C81740047F298 /* Comments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comments.swift; sourceTree = "<group>"; };
+		22815A0D2161F67D007489CB /* TempPost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempPost.swift; sourceTree = "<group>"; };
+		22815A0F2161F6D6007489CB /* TempUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempUser.swift; sourceTree = "<group>"; };
+		22815A1121630CCC007489CB /* UserPostDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPostDataSource.swift; sourceTree = "<group>"; };
+		22815A1321630F7D007489CB /* UserPostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPostCell.swift; sourceTree = "<group>"; };
+		22815A15216310DD007489CB /* ModelUserPost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelUserPost.swift; sourceTree = "<group>"; };
+		22B2D2AA2175822F0082D6A2 /* DiscoverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverViewController.swift; sourceTree = "<group>"; };
+		22B2D2AC2175842F0082D6A2 /* PicCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PicCollectionViewCell.swift; sourceTree = "<group>"; };
+		22B2D2AE2175A7580082D6A2 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		22B2D2B12175B2360082D6A2 /* ModelUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelUser.swift; sourceTree = "<group>"; };
+		22B2D2B32175B5BD0082D6A2 /* UserTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTableViewCell.swift; sourceTree = "<group>"; };
+		22B2D2B52175B90B0082D6A2 /* HeaderProfileCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderProfileCollectionReusableView.swift; sourceTree = "<group>"; };
+		22B2D2B72175DA870082D6A2 /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
+		22B2D2B9217635810082D6A2 /* CommentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentViewController.swift; sourceTree = "<group>"; };
+		22B2D2BB2178DD480082D6A2 /* ActivityFeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityFeedViewController.swift; sourceTree = "<group>"; };
+		22B2D2BD2178E02F0082D6A2 /* ActivityFeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityFeedCell.swift; sourceTree = "<group>"; };
+		22B2D2BF2178E0E30082D6A2 /* Activity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Activity.swift; sourceTree = "<group>"; };
+		22B2D2C12178E0FB0082D6A2 /* ModelActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelActivity.swift; sourceTree = "<group>"; };
+		22B2D2C321796F810082D6A2 /* ActivityService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityService.swift; sourceTree = "<group>"; };
+		22B2D2C5217AFF720082D6A2 /* LikesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikesViewController.swift; sourceTree = "<group>"; };
+		22B2D2C7217AFFCA0082D6A2 /* LikesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikesCell.swift; sourceTree = "<group>"; };
+		22E28D7D2174D10500C15444 /* PostService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostService.swift; sourceTree = "<group>"; };
+		43AE58E29F890A674E028CDC /* Pods-instapicTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-instapicTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-instapicTests/Pods-instapicTests.debug.xcconfig"; sourceTree = "<group>"; };
+		537D5C8A09662854AE5BD50D /* Pods_instapicTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_instapicTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		89228E6E9943466A3F0AA52B /* Pods-instapicUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-instapicUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-instapicUITests/Pods-instapicUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9765A8D81795E02965E9F219 /* Pods_instapicUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_instapicUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		978806A4314E3505F6BFE685 /* Pods_instapic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_instapic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7782777E7AC2EC2A93FB826 /* Pods-instapic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-instapic.release.xcconfig"; path = "Pods/Target Support Files/Pods-instapic/Pods-instapic.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		222A3E04215B103200323750 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC631595E7F2AAC3249A1E12 /* Pods_instapic.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		222A3E1A215B103600323750 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7AC5DF259CC3F42313F7C28 /* Pods_instapicTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		222A3E25215B103700323750 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B0CB08DA578FB69C1B16942 /* Pods_instapicUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		222A3DFE215B103200323750 = {
+			isa = PBXGroup;
+			children = (
+				222A3E09215B103200323750 /* instapic */,
+				222A3E20215B103600323750 /* instapicTests */,
+				222A3E2B215B103700323750 /* instapicUITests */,
+				222A3E6A215B145500323750 /* fonts */,
+				222A3E08215B103200323750 /* Products */,
+				6059DCD382A36D86DECB403A /* Pods */,
+				88D4B64C926B10B435D25642 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		222A3E08215B103200323750 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				222A3E07215B103200323750 /* instapic.app */,
+				222A3E1D215B103600323750 /* instapicTests.xctest */,
+				222A3E28215B103700323750 /* instapicUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		222A3E09215B103200323750 /* instapic */ = {
+			isa = PBXGroup;
+			children = (
+				22B2D2B02175B0ED0082D6A2 /* ViewControllers */,
+				222A3E822161C4BC00323750 /* views */,
+				222A3E71215F1AD900323750 /* Models */,
+				222A3E6B215B154400323750 /* Extensions.swift */,
+				222A3E0A215B103200323750 /* AppDelegate.swift */,
+				222A3E10215B103200323750 /* Main.storyboard */,
+				222A3E13215B103600323750 /* Assets.xcassets */,
+				222A3E15215B103600323750 /* LaunchScreen.storyboard */,
+				222A3E6D215B222B00323750 /* GoogleService-Info.plist */,
+				222A3E18215B103600323750 /* Info.plist */,
+				222A3E74215F3EAC00323750 /* Common.swift */,
+				222A3E76215F93FF00323750 /* IJProgressView.swift */,
+				22815A0D2161F67D007489CB /* TempPost.swift */,
+				22815A0F2161F6D6007489CB /* TempUser.swift */,
+				22815A1121630CCC007489CB /* UserPostDataSource.swift */,
+				22E28D7D2174D10500C15444 /* PostService.swift */,
+				22B2D2B72175DA870082D6A2 /* UserService.swift */,
+				22B2D2C321796F810082D6A2 /* ActivityService.swift */,
+			);
+			path = instapic;
+			sourceTree = "<group>";
+		};
+		222A3E20215B103600323750 /* instapicTests */ = {
+			isa = PBXGroup;
+			children = (
+				222A3E21215B103600323750 /* instapicTests.swift */,
+				222A3E23215B103600323750 /* Info.plist */,
+			);
+			path = instapicTests;
+			sourceTree = "<group>";
+		};
+		222A3E2B215B103700323750 /* instapicUITests */ = {
+			isa = PBXGroup;
+			children = (
+				222A3E2C215B103700323750 /* instapicUITests.swift */,
+				222A3E2E215B103700323750 /* Info.plist */,
+			);
+			path = instapicUITests;
+			sourceTree = "<group>";
+		};
+		222A3E6A215B145500323750 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				222A3E47215B144F00323750 /* Roboto-Black.ttf */,
+				222A3E49215B144F00323750 /* Roboto-BlackItalic.ttf */,
+				222A3E51215B145000323750 /* Roboto-Bold.ttf */,
+				222A3E4F215B144F00323750 /* Roboto-BoldItalic.ttf */,
+				222A3E54215B145000323750 /* Roboto-Italic.ttf */,
+				222A3E52215B145000323750 /* Roboto-Light.ttf */,
+				222A3E57215B145000323750 /* Roboto-LightItalic.ttf */,
+				222A3E4A215B144F00323750 /* Roboto-Medium.ttf */,
+				222A3E53215B145000323750 /* Roboto-MediumItalic.ttf */,
+				222A3E4D215B144F00323750 /* Roboto-Regular.ttf */,
+				222A3E50215B145000323750 /* Roboto-Thin.ttf */,
+				222A3E55215B145000323750 /* Roboto-ThinItalic.ttf */,
+				222A3E4E215B144F00323750 /* RobotoCondensed-Bold.ttf */,
+				222A3E4B215B144F00323750 /* RobotoCondensed-BoldItalic.ttf */,
+				222A3E4C215B144F00323750 /* RobotoCondensed-Italic.ttf */,
+				222A3E46215B144E00323750 /* RobotoCondensed-Light.ttf */,
+				222A3E48215B144F00323750 /* RobotoCondensed-LightItalic.ttf */,
+				222A3E56215B145000323750 /* RobotoCondensed-Regular.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		222A3E71215F1AD900323750 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				222A3E72215F2BBA00323750 /* UserProfile.swift */,
+				222A3E7E2160A7B300323750 /* Posts.swift */,
+				222A3E802161037200323750 /* ModelPost.swift */,
+				22815A15216310DD007489CB /* ModelUserPost.swift */,
+				2272AC6D216C80210047F298 /* ModelComment.swift */,
+				2272AC6F216C81740047F298 /* Comments.swift */,
+				22B2D2B12175B2360082D6A2 /* ModelUser.swift */,
+				22B2D2BF2178E0E30082D6A2 /* Activity.swift */,
+				22B2D2C12178E0FB0082D6A2 /* ModelActivity.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		222A3E822161C4BC00323750 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				222A3E832161C4F100323750 /* PostHeaderCell.swift */,
+				222A3E852161C50000323750 /* PostCell.swift */,
+				2272AC6B216C7F5E0047F298 /* CommentCell.swift */,
+				22B2D2AC2175842F0082D6A2 /* PicCollectionViewCell.swift */,
+				22815A1321630F7D007489CB /* UserPostCell.swift */,
+				22B2D2B32175B5BD0082D6A2 /* UserTableViewCell.swift */,
+				22B2D2B52175B90B0082D6A2 /* HeaderProfileCollectionReusableView.swift */,
+				22B2D2BD2178E02F0082D6A2 /* ActivityFeedCell.swift */,
+				22B2D2C7217AFFCA0082D6A2 /* LikesCell.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		22B2D2B02175B0ED0082D6A2 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				222A3E0C215B103200323750 /* HomeViewController.swift */,
+				222A3E0E215B103200323750 /* SecondViewController.swift */,
+				222A3E6F215B9F9100323750 /* RegisterViewController.swift */,
+				222A3E3D215B118300323750 /* ProfileEditController.swift */,
+				222A3E3E215B118300323750 /* ProfileViewController.swift */,
+				222A3E3C215B118300323750 /* ViewControllerSignIn.swift */,
+				222A3E78215FBA3500323750 /* PhotoViewController.swift */,
+				222A3E7A215FC8C400323750 /* PreviewViewController.swift */,
+				222A3E7C21609D6700323750 /* ShareViewController.swift */,
+				2272AC65216C417E0047F298 /* PostDetailViewController.swift */,
+				222A3E872161E6A700323750 /* HomeTableViewController.swift */,
+				2272AC69216C7AFA0047F298 /* CommentsTableViewController.swift */,
+				22B2D2AA2175822F0082D6A2 /* DiscoverViewController.swift */,
+				22B2D2AE2175A7580082D6A2 /* SearchViewController.swift */,
+				22B2D2B9217635810082D6A2 /* CommentViewController.swift */,
+				22B2D2BB2178DD480082D6A2 /* ActivityFeedViewController.swift */,
+				22B2D2C5217AFF720082D6A2 /* LikesViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		6059DCD382A36D86DECB403A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				145031260D0D8EEBB4AED854 /* Pods-instapic.debug.xcconfig */,
+				C7782777E7AC2EC2A93FB826 /* Pods-instapic.release.xcconfig */,
+				43AE58E29F890A674E028CDC /* Pods-instapicTests.debug.xcconfig */,
+				0AA386BF91823C801F03BD4D /* Pods-instapicTests.release.xcconfig */,
+				0C440ADB800C71721457B331 /* Pods-instapicUITests.debug.xcconfig */,
+				89228E6E9943466A3F0AA52B /* Pods-instapicUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		88D4B64C926B10B435D25642 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				978806A4314E3505F6BFE685 /* Pods_instapic.framework */,
+				537D5C8A09662854AE5BD50D /* Pods_instapicTests.framework */,
+				9765A8D81795E02965E9F219 /* Pods_instapicUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		222A3E06215B103200323750 /* instapic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 222A3E31215B103700323750 /* Build configuration list for PBXNativeTarget "instapic" */;
+			buildPhases = (
+				4C509CED4C131E870C108DB7 /* [CP] Check Pods Manifest.lock */,
+				222A3E03215B103200323750 /* Sources */,
+				222A3E04215B103200323750 /* Frameworks */,
+				222A3E05215B103200323750 /* Resources */,
+				47356350E21B1849F7D44E30 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = instapic;
+			productName = instapic;
+			productReference = 222A3E07215B103200323750 /* instapic.app */;
+			productType = "com.apple.product-type.application";
+		};
+		222A3E1C215B103600323750 /* instapicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 222A3E34215B103700323750 /* Build configuration list for PBXNativeTarget "instapicTests" */;
+			buildPhases = (
+				28EA2CF834102B72ABBCB4B2 /* [CP] Check Pods Manifest.lock */,
+				222A3E19215B103600323750 /* Sources */,
+				222A3E1A215B103600323750 /* Frameworks */,
+				222A3E1B215B103600323750 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				222A3E1F215B103600323750 /* PBXTargetDependency */,
+			);
+			name = instapicTests;
+			productName = instapicTests;
+			productReference = 222A3E1D215B103600323750 /* instapicTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		222A3E27215B103700323750 /* instapicUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 222A3E37215B103700323750 /* Build configuration list for PBXNativeTarget "instapicUITests" */;
+			buildPhases = (
+				DB8815C4EA4C83A00AF647C0 /* [CP] Check Pods Manifest.lock */,
+				222A3E24215B103700323750 /* Sources */,
+				222A3E25215B103700323750 /* Frameworks */,
+				222A3E26215B103700323750 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				222A3E2A215B103700323750 /* PBXTargetDependency */,
+			);
+			name = instapicUITests;
+			productName = instapicUITests;
+			productReference = 222A3E28215B103700323750 /* instapicUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		222A3DFF215B103200323750 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Tarun Dev Thalakunte Rajappa";
+				TargetAttributes = {
+					222A3E06215B103200323750 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					222A3E1C215B103600323750 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 222A3E06215B103200323750;
+					};
+					222A3E27215B103700323750 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 222A3E06215B103200323750;
+					};
+				};
+			};
+			buildConfigurationList = 222A3E02215B103200323750 /* Build configuration list for PBXProject "instapic" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 222A3DFE215B103200323750;
+			productRefGroup = 222A3E08215B103200323750 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				222A3E06215B103200323750 /* instapic */,
+				222A3E1C215B103600323750 /* instapicTests */,
+				222A3E27215B103700323750 /* instapicUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		222A3E05215B103200323750 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				222A3E65215B145100323750 /* Roboto-MediumItalic.ttf in Resources */,
+				222A3E66215B145100323750 /* Roboto-Italic.ttf in Resources */,
+				222A3E69215B145100323750 /* Roboto-LightItalic.ttf in Resources */,
+				222A3E62215B145100323750 /* Roboto-Thin.ttf in Resources */,
+				222A3E5C215B145100323750 /* Roboto-Medium.ttf in Resources */,
+				222A3E63215B145100323750 /* Roboto-Bold.ttf in Resources */,
+				222A3E5F215B145100323750 /* Roboto-Regular.ttf in Resources */,
+				222A3E5A215B145100323750 /* RobotoCondensed-LightItalic.ttf in Resources */,
+				222A3E5D215B145100323750 /* RobotoCondensed-BoldItalic.ttf in Resources */,
+				222A3E64215B145100323750 /* Roboto-Light.ttf in Resources */,
+				222A3E61215B145100323750 /* Roboto-BoldItalic.ttf in Resources */,
+				222A3E17215B103600323750 /* LaunchScreen.storyboard in Resources */,
+				222A3E14215B103600323750 /* Assets.xcassets in Resources */,
+				222A3E60215B145100323750 /* RobotoCondensed-Bold.ttf in Resources */,
+				222A3E5B215B145100323750 /* Roboto-BlackItalic.ttf in Resources */,
+				222A3E59215B145100323750 /* Roboto-Black.ttf in Resources */,
+				222A3E58215B145100323750 /* RobotoCondensed-Light.ttf in Resources */,
+				222A3E67215B145100323750 /* Roboto-ThinItalic.ttf in Resources */,
+				222A3E12215B103200323750 /* Main.storyboard in Resources */,
+				222A3E6E215B222B00323750 /* GoogleService-Info.plist in Resources */,
+				222A3E68215B145100323750 /* RobotoCondensed-Regular.ttf in Resources */,
+				222A3E5E215B145100323750 /* RobotoCondensed-Italic.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		222A3E1B215B103600323750 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		222A3E26215B103700323750 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		28EA2CF834102B72ABBCB4B2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-instapicTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		47356350E21B1849F7D44E30 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-instapic/Pods-instapic-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL/openssl.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/ImagePicker/ImagePicker.framework",
+				"${BUILT_PRODUCTS_DIR}/KILabel/KILabel.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/PryntTrimmerView/PryntTrimmerView.framework",
+				"${BUILT_PRODUCTS_DIR}/SteviaLayout/Stevia.framework",
+				"${BUILT_PRODUCTS_DIR}/YPImagePicker/YPImagePicker.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC/GRPCClient.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-C++/grpcpp.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-ProtoRPC/ProtoRPC.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-RxLibrary/RxLibrary.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ImagePicker.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KILabel.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PryntTrimmerView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Stevia.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YPImagePicker.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GRPCClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpcpp.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProtoRPC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxLibrary.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-instapic/Pods-instapic-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4C509CED4C131E870C108DB7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-instapic-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB8815C4EA4C83A00AF647C0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-instapicUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		222A3E03215B103200323750 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22B2D2B62175B90B0082D6A2 /* HeaderProfileCollectionReusableView.swift in Sources */,
+				222A3E842161C4F100323750 /* PostHeaderCell.swift in Sources */,
+				22B2D2C22178E0FB0082D6A2 /* ModelActivity.swift in Sources */,
+				222A3E7D21609D6700323750 /* ShareViewController.swift in Sources */,
+				2272AC6E216C80210047F298 /* ModelComment.swift in Sources */,
+				222A3E812161037200323750 /* ModelPost.swift in Sources */,
+				222A3E3F215B118300323750 /* ViewControllerSignIn.swift in Sources */,
+				22815A16216310DD007489CB /* ModelUserPost.swift in Sources */,
+				22B2D2C02178E0E30082D6A2 /* Activity.swift in Sources */,
+				22B2D2BC2178DD480082D6A2 /* ActivityFeedViewController.swift in Sources */,
+				222A3E0F215B103200323750 /* SecondViewController.swift in Sources */,
+				22B2D2C6217AFF730082D6A2 /* LikesViewController.swift in Sources */,
+				22815A0E2161F67D007489CB /* TempPost.swift in Sources */,
+				222A3E862161C50000323750 /* PostCell.swift in Sources */,
+				22B2D2B42175B5BD0082D6A2 /* UserTableViewCell.swift in Sources */,
+				222A3E0B215B103200323750 /* AppDelegate.swift in Sources */,
+				222A3E70215B9F9100323750 /* RegisterViewController.swift in Sources */,
+				22B2D2C8217AFFCA0082D6A2 /* LikesCell.swift in Sources */,
+				2272AC70216C81740047F298 /* Comments.swift in Sources */,
+				22B2D2B82175DA870082D6A2 /* UserService.swift in Sources */,
+				22B2D2AF2175A7580082D6A2 /* SearchViewController.swift in Sources */,
+				222A3E77215F93FF00323750 /* IJProgressView.swift in Sources */,
+				222A3E79215FBA3500323750 /* PhotoViewController.swift in Sources */,
+				22B2D2BA217635810082D6A2 /* CommentViewController.swift in Sources */,
+				22815A1221630CCC007489CB /* UserPostDataSource.swift in Sources */,
+				222A3E0D215B103200323750 /* HomeViewController.swift in Sources */,
+				22815A1421630F7D007489CB /* UserPostCell.swift in Sources */,
+				222A3E41215B118300323750 /* ProfileViewController.swift in Sources */,
+				2272AC6A216C7AFA0047F298 /* CommentsTableViewController.swift in Sources */,
+				222A3E40215B118300323750 /* ProfileEditController.swift in Sources */,
+				222A3E7F2160A7B300323750 /* Posts.swift in Sources */,
+				222A3E6C215B154400323750 /* Extensions.swift in Sources */,
+				222A3E75215F3EAC00323750 /* Common.swift in Sources */,
+				22B2D2B22175B2360082D6A2 /* ModelUser.swift in Sources */,
+				22815A102161F6D6007489CB /* TempUser.swift in Sources */,
+				22B2D2C421796F810082D6A2 /* ActivityService.swift in Sources */,
+				222A3E7B215FC8C500323750 /* PreviewViewController.swift in Sources */,
+				22B2D2AD2175842F0082D6A2 /* PicCollectionViewCell.swift in Sources */,
+				22E28D7E2174D10500C15444 /* PostService.swift in Sources */,
+				22B2D2BE2178E02F0082D6A2 /* ActivityFeedCell.swift in Sources */,
+				22B2D2AB2175822F0082D6A2 /* DiscoverViewController.swift in Sources */,
+				2272AC66216C417E0047F298 /* PostDetailViewController.swift in Sources */,
+				222A3E73215F2BBA00323750 /* UserProfile.swift in Sources */,
+				222A3E882161E6A700323750 /* HomeTableViewController.swift in Sources */,
+				2272AC6C216C7F5E0047F298 /* CommentCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		222A3E19215B103600323750 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				222A3E22215B103600323750 /* instapicTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		222A3E24215B103700323750 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				222A3E2D215B103700323750 /* instapicUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		222A3E1F215B103600323750 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 222A3E06215B103200323750 /* instapic */;
+			targetProxy = 222A3E1E215B103600323750 /* PBXContainerItemProxy */;
+		};
+		222A3E2A215B103700323750 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 222A3E06215B103200323750 /* instapic */;
+			targetProxy = 222A3E29215B103700323750 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		222A3E10215B103200323750 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				222A3E11215B103200323750 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		222A3E15215B103600323750 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				222A3E16215B103600323750 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		222A3E2F215B103700323750 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		222A3E30215B103700323750 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		222A3E32215B103700323750 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 145031260D0D8EEBB4AED854 /* Pods-instapic.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZG96D44FGB;
+				INFOPLIST_FILE = instapic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = UniMelb.instapic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		222A3E33215B103700323750 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7782777E7AC2EC2A93FB826 /* Pods-instapic.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZG96D44FGB;
+				INFOPLIST_FILE = instapic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = UniMelb.instapic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		222A3E35215B103700323750 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43AE58E29F890A674E028CDC /* Pods-instapicTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZG96D44FGB;
+				INFOPLIST_FILE = instapicTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = UniMelb.instapicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/instapic.app/instapic";
+			};
+			name = Debug;
+		};
+		222A3E36215B103700323750 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0AA386BF91823C801F03BD4D /* Pods-instapicTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZG96D44FGB;
+				INFOPLIST_FILE = instapicTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = UniMelb.instapicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/instapic.app/instapic";
+			};
+			name = Release;
+		};
+		222A3E38215B103700323750 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C440ADB800C71721457B331 /* Pods-instapicUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZG96D44FGB;
+				INFOPLIST_FILE = instapicUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = UniMelb.instapicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = instapic;
+			};
+			name = Debug;
+		};
+		222A3E39215B103700323750 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89228E6E9943466A3F0AA52B /* Pods-instapicUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZG96D44FGB;
+				INFOPLIST_FILE = instapicUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = UniMelb.instapicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = instapic;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		222A3E02215B103200323750 /* Build configuration list for PBXProject "instapic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				222A3E2F215B103700323750 /* Debug */,
+				222A3E30215B103700323750 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		222A3E31215B103700323750 /* Build configuration list for PBXNativeTarget "instapic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				222A3E32215B103700323750 /* Debug */,
+				222A3E33215B103700323750 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		222A3E34215B103700323750 /* Build configuration list for PBXNativeTarget "instapicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				222A3E35215B103700323750 /* Debug */,
+				222A3E36215B103700323750 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		222A3E37215B103700323750 /* Build configuration list for PBXNativeTarget "instapicUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				222A3E38215B103700323750 /* Debug */,
+				222A3E39215B103700323750 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 222A3DFF215B103200323750 /* Project object */;
+}

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>107499014410-pggofqmtv3fiqrfbjj48q83jubbe02el.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.107499014410-pggofqmtv3fiqrfbjj48q83jubbe02el</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAdoGqNV6ZhPih9F-bwUpzjpLMaVjyr8Lg</string>
+	<key>GCM_SENDER_ID</key>
+	<string>107499014410</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>UniMelb.instapic</string>
+	<key>PROJECT_ID</key>
+	<string>instapic-bb197</string>
+	<key>STORAGE_BUCKET</key>
+	<string>instapic-bb197.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false></false>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:107499014410:ios:0e659c27b9ab0f89</string>
+	<key>DATABASE_URL</key>
+	<string>https://instapic-bb197.firebaseio.com</string>
+</dict>
+</plist>
